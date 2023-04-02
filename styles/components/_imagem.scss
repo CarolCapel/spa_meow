@@ -1,0 +1,24 @@
+@import '../abstract/variaveis';
+
+.pedra-e-flor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+    .img__dois {
+
+        align-items: center;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    .img__flor {
+        border-radius: 40px;
+    }
+
+    .flor__texto {
+
+        text-align: center;
+    }
+
+}
